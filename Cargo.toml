@@ -1,0 +1,17 @@
+[package]
+name = "quillautobot-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenvy = "0.15"
+ethers = "2.0"
+reqwest = { version = "0.12", features = ["json", "blocking"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+rand = "0.8"
+log = "0.4"
+env_logger = "0.11"
+url = "2.5"
+hex = "0.4"
